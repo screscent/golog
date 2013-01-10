@@ -43,6 +43,11 @@ func SetOutput(w io.Writer) {
 	GoLogger = New(w, "", Ldate|Ltime|Lshortfile, 1)
 }
 
+// SetFlags sets the flags for the gologger.
+func SetFlags(flag int) {
+	GoLogger.SetFlags(flag)
+}
+
 // SetLogger sets a new logger.
 func SetLogger(l *Logger) {
 	GoLogger = l
