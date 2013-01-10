@@ -249,7 +249,7 @@ func Flags() int {
 }
 
 // SetFlags sets the output flags for the standard logger.
-func SetFlags(flag int) {
+func SetFlags_(flag int) {
 	std.SetFlags(flag)
 }
 
