@@ -1,3 +1,5 @@
+//form https://github.com/astaxie/beego/blob/master/log.go
+//and modify it
 package golog
 
 import (
