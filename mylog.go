@@ -13,7 +13,7 @@
 package golog
 
 import (
-  "fmt"
+	"fmt"
 	"io"
 	"os"
 	"runtime"
